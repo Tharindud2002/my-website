@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>මතකය (Memory)</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #001f33, #004466);
+      color: white;
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 20px;
+      color: #00e6e6;
+    }
+    nav {
+      background: #00334d;
+      overflow: hidden;
+      text-align: center;
+    }
+    nav a {
+      display: inline-block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #ff9800;
+    }
+    .container {
+      padding: 15px;
+      text-align: left;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section {
+      background: rgba(0, 0, 0, 0.4);
+      margin: 15px 0;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0px 0px 10px #00e6e6;
+    }
+    h2 {
+      color: #00e6e6;
+      margin-bottom: 10px;
+    }
+    .item {
+      display: flex;
+      align-items: flex-start;
+      background: rgba(255,255,255,0.05);
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .item img {
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+    }
+    .item p {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .sub-list {
+      margin-left: 65px;
+      margin-top: 5px;
+    }
+    .sub-list li {
+      margin: 3px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>මතකය (Memory)</h1>
+  <nav>
+  <a href="index.html">Home</a>
+  <a href="input.html">Input & Output Device</a>
+  <a href="hardware.html">Hardware</a>
+  <a href="software.html">Software</a>
+  <a href="memory.html">Memory</a>
+  <a href="os.html">Operating System</a>
+  <a href="cp.html">CPU</a>
+  <a href="excel.html">Excel</a>
+</nav>
+  <div class="container">
+
+    <div class="section">
+      <h2>Memory යනු</h2>
+      <p>පරිගණකයේ දත්ත හා තොරතුරු ගබඩා කරන ඒකකය Computer Memory නම් වේ. Memory ධාරිතාව මනිනු ලබන්නේ බිට්(Bit) මගිනි:</p>
+      <div class="sub-list">
+        <ul>
+          <li>8 bit – 1 byte</li>
+          <li>1024 byte – 1 kilo byte</li>
+          <li>1024 kilo byte – 1 mega byte</li>
+          <li>1024 mega byte – 1 tera byte</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Computer Memory ප්‍රධාන කොටස්</h2>
+      <div class="sub-list">
+        <ul>
+          <li>Primary Memory</li>
+          <li>Secondary Memory</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Primary Memory</h2>
+      <p>පරිගණකයේ ඇතුළත ක්‍රියාකාරිත්වයට අවශ්‍ය දත්ත ගබඩා කරනු ලබන්නේ Primary Memory කුලය. ප්‍රාථමික මතකය කොටස් 02කි:</p>
+      <div class="sub-list">
+        <ul>
+          <li><b>ROM – Read Only Memory:</b> පරිශිලකයින්ට දත්ත වෙනස් කිරීමට අවසර නොලැබේ. නිෂ්පාදකයා විසින් ROM එකට දත්ත ගබඩා කරයි. ROM සතු ප්‍රධාන කාර්යයන්:
+            <ul>
+              <li>පරිගණකය On කරන අවස්ථාවේ සියලුම දෘඪාංග(Hardware) නිවැරදිව ක්‍රියාත්මක වනවාද පරීක්ෂා කිරිම</li>
+              <li>පරිගණකය boot කිරීම (Operating System එක load කිරිම)</li>
+            </ul>
+          </li>
+          <li><b>RAM – Random Access Memory:</b> දත්ත තාවකාලිකව ගබඩා කරයි. පරිගණකයේ සියලුම ලේඛන මතකය ගබඩා කරයි. CPU සමඟ සම්බන්ධව වැඩ කරයි.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Secondary Memory</h2>
+      <p>පරිශිලකයින් නිර්මාණය කරන ලියකියවිලි ගබඩා කරයි. උදාහරණ:</p>
+      <div class="sub-list">
+        <ul>
+          <li>Word Document</li>
+          <li>Web Page</li>
+          <li>PowerPoint Slide Presentation</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Secondary Memory උපාංග</h2>
+
+        <div class="item">
+          <img src="harddisk.png" alt="Hard Disk">
+          <p><b>Hard Disk:</b> Digital දත්ත ගබඩා කිරීම හා ලබා ගැනීම සදහා චුම්බක ද්‍රව්‍ය භාවිතා කරන උපාංගයකි. ධාරිතාව 500GB, 1TB, 2TB වැනි ප්‍රමාණ වලින් ඇත. System Unit එක හරහා Internal drive එකක් ලෙස සම්බන්ධ වේ.</p>
+        </div>
+
+        <div class="item">
+          <img src="cd_dvd.png" alt="CD/DVD">
+          <p><b>CD/DVD:</b> CD (Compact Disc) හා DVD (Digital Versatile Disc) යනු දත්ත ගබඩා කිරීමේ තැටි වේ. ධාරිතාව CD 750MB, DVD 4-7GB වැනි ප්‍රමාණ වලින් ඇත. System Unit එක හරහා Internal/External Disk Drive එකක් ලෙස සම්බන්ධ වේ.</p>
+        </div>
+
+        <div class="item">
+          <img src="pendrive.png" alt="Pen Drive">
+          <p><b>Pen Drive:</b> දත්ත ගබඩා කිරීමට හා අතේ ගෙන යාමට හැකි කුඩා උපාංගයකි. ධාරිතාව 1GB, 2GB, 8GB වැනි ප්‍රමාණ වලින් ඇත. USB Port හරහා සම්බන්ධ වේ.</p>
+        </div>
+
+        <div class="item">
+          <img src="external_hd.png" alt="External Hard Disk">
+          <p><b>External Hard Disk:</b> අමතර දත්ත ගබඩා උපාංගයකි. USB Port හරහා සම්බන්ධ වේ. ධාරිතාව 1TB වැනි ප්‍රමාණ වලින් ඇත.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

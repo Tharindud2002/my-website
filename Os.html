@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operating System</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #001f33, #004466);
+      color: white;
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 20px;
+      color: #00e6e6;
+    }
+    nav {
+      background: #00334d;
+      overflow: hidden;
+      text-align: center;
+    }
+    nav a {
+      display: inline-block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #ff9800;
+    }
+    .container {
+      padding: 15px;
+      text-align: left;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section {
+      background: rgba(0, 0, 0, 0.4);
+      margin: 15px 0;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0px 0px 10px #00e6e6;
+    }
+    h2 {
+      color: #00e6e6;
+      margin-bottom: 10px;
+    }
+    .item {
+      display: flex;
+      align-items: flex-start;
+      background: rgba(255,255,255,0.05);
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .item img {
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+    }
+    .item p {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .sub-list {
+      margin-left: 65px;
+      margin-top: 5px;
+    }
+    .sub-list li {
+      margin: 3px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #00e6e6;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: rgba(0, 230, 230, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Operating System</h1>
+  <nav>
+  <a href="index.html">Home</a>
+  <a href="input.html">Input & Output Device</a>
+  <a href="hardware.html">Hardware</a>
+  <a href="software.html">Software</a>
+  <a href="memory.html">Memory</a>
+  <a href="os.html">Operating System</a>
+  <a href="cp.html">CPU</a>
+  <a href="excel.html">Excel</a>
+</nav>
+  <div class="container">
+
+    <div class="section">
+      <h2>Operating System යනු</h2>
+      <p>අපගේ අවශ්‍යතාවන් ඉටුකර ගැනිමට, එනම් Application Software ධාවනය කිරිමට පරිසරය සකස් කරදෙන unit එක Operating System වේ. පරිශිලකයා හා පරිගණකය දෘඪාංග අතර සම්බන්ධතාවය ඇති කිරිමත් Operating System මඟින් සිදු කෙරේ.</p>
+    </div>
+
+    <div class="section">
+      <h2>Operating System උදාහරණ</h2>
+      <table>
+        <tr>
+          <th>Operating System</th>
+          <th>First Related</th>
+          <th>Developer</th>
+        </tr>
+        <tr>
+          <td>MS-Dos 1:x</td>
+          <td>1981</td>
+          <td>Microsoft</td>
+        </tr>
+        <tr>
+          <td>Windows 3:x</td>
+          <td>1990</td>
+          <td>Microsoft</td>
+        </tr>
+        <tr>
+          <td>Windows 2010</td>
+          <td>2015</td>
+          <td>Microsoft</td>
+        </tr>
+        <tr>
+          <td>Linux</td>
+          <td>1991</td>
+          <td>By Linus Torvalds</td>
+        </tr>
+        <tr>
+          <td>Android</td>
+          <td>2007</td>
+          <td>Google</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Operating System වර්ග</h2>
+      <div class="sub-list">
+        <ul>
+          <li><b>Single User Single Tasking:</b> එක වරකට භාවිතා කල හැකකේ පරිශිලකයා පමණි. එක වරකට කළ හැක්කේ එක වැඩක් පමණි. උදාහරණ: DOS, Android</li>
+          <li><b>Single User Multi Tasking:</b> එක වරකට භාවිතා කල හැක්කේ එක පරිශිලකයෙකුට පමණි. වරකට කාර්යයන් කිහිපයක් කළ හැකිය. උදාහරණ: Microsoft Windows, Apple Mac OS</li>
+          <li><b>Multi User Multi Tasking:</b> එක වරකට පරිශිලකයන් කිහිප දෙනෙකුට භාවිතා කල හැකිය. එක වරකට වැඩ කිහිපයක් කළ හැකිය. උදාහරණ: Unity, Linux, Windows Server</li>
+          <li><b>Real Time Operating System:</b> දෘඪාංග හා මෘදුකාංග සමපත් කළමණාකරනය කිරීමට නිර්මාණය කරන ලද වර්ගයකි. Windows, MacOS හෝ Linux වැනි පොදු OS මෙන් නොව, දැඩි කාල සිමාවන් තුල වැඩ සිදු කිරීමේ හැකියාව ඇත. උදාහරණ: VxWorks, FreeRTOS, RTEMS, ANX, Microlos-Android, Tizen RT</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Operating System ප්‍රධාන කාර්යයන්</h2>
+      <div class="sub-list">
+        <ul>
+          <li>කාර්යය කළමණාකරණය</li>
+          <li>මතකය කළමණාකරණය</li>
+          <li>Device කළමණාකරණය</li>
+          <li>ජාල කළමණාකරණය</li>
+          <li>ගොනු කළමණාකරණය</li>
+          <li>ආරක්ෂක කළමණාකරණය</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Operating System අතුරුමුහුණත්</h2>
+      <div class="sub-list">
+        <ul>
+          <li><b>CLI – Command Line Interface:</b> අතිතයේ පරිගණකවල ක්‍රියාත්මක වූ අතුරුමුහුණත. විධානය මතක තබා ගැනීම සිදු වේ. උදාහරණ: MS-DOS</li>
+          <li><b>GUI – Graphical User Interface:</b> වර්තමාන මෙහෙයුම් පද්ධතියේ අතුරුමුහුණත. විධානයක් රූපමය ආකාරයෙන් සිදු වේ. උදාහරණ: Windows</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
